@@ -15,6 +15,7 @@ s.author           = { 'leohou' => 'houli@wesai.com' }
 s.source           = { :git => 'https://github.com/leohou/HLKit.git', :tag => s.version.to_s }
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 s.source_files = 'HLKit/Classes/**/*'
+ s.ios.deployment_target = '8.0'
 #// 设置只依赖一个系统的library
 # s.library = 'z'
 s.libraries = 'z'
