@@ -9,24 +9,24 @@
 #import "UIColor+HLKit.h"
 
 @implementation UIColor (HLKit)
-+ (instancetype)wh_colorWithHex:(uint32_t)hex {
++ (instancetype)hl_colorWithHex:(uint32_t)hex {
     
     uint8_t r = (hex & 0xff0000) >> 16;
     uint8_t g = (hex & 0x00ff00) >> 8;
     uint8_t b = hex & 0x0000ff;
     
-    return [self wh_colorWithRed:r green:g blue:b];
+    return [self hl_colorWithRed:r green:g blue:b];
 }
 
-+ (instancetype)wh_randomColor {
-    return [UIColor wh_colorWithRed:arc4random_uniform(256) green:arc4random_uniform(256) blue:arc4random_uniform(256)];
++ (instancetype)hl_randomColor {
+    return [UIColor hl_colorWithRed:arc4random_uniform(256) green:arc4random_uniform(256) blue:arc4random_uniform(256)];
 }
 
-+ (instancetype)wh_colorWithRed:(uint8_t)red green:(uint8_t)green blue:(uint8_t)blue {
++ (instancetype)hl_colorWithRed:(uint8_t)red green:(uint8_t)green blue:(uint8_t)blue {
     return [UIColor colorWithRed:red / 255.0 green:green / 255.0 blue:blue / 255.0 alpha:1.0];
 }
 
-+ (UIColor *)wh_colorWithHexString:(NSString *)color alpha:(CGFloat)alpha
++ (UIColor *)hl_colorWithHexString:(NSString *)color alpha:(CGFloat)alpha
 {
     NSString *cString = [[color stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
     if ([cString length] < 6)
@@ -66,7 +66,7 @@
     return [UIColor colorWithRed:((float)r / 255.0f) green:((float)g / 255.0f) blue:((float)b / 255.0f) alpha:alpha];
 }
 
-+ (UIColor*)wh_gradientFromColor:(UIColor*)c1 toColor:(UIColor*)c2 withHeight:(CGFloat)height
++ (UIColor*)hl_gradientFromColor:(UIColor*)c1 toColor:(UIColor*)c2 withHeight:(CGFloat)height
 {
     CGSize size = CGSizeMake(1, height);
     UIGraphicsBeginImageContextWithOptions(size, NO, 0);
