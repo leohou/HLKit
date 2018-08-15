@@ -11,20 +11,20 @@ typedef void (^TouchedButtonBlock)(void);
 
 @interface UIButton (HLKit)
 //快速创建按钮
-+(instancetype)wh_buttonWithTitle:(NSString *)title backColor:(UIColor *)backColor backImageName:(NSString *)backImageName titleColor:(UIColor *)color fontSize:(int)fontSize frame:(CGRect)frame cornerRadius:(CGFloat)cornerRadius;
++(instancetype)hl_buttonWithTitle:(NSString *)title backColor:(UIColor *)backColor backImageName:(NSString *)backImageName titleColor:(UIColor *)color fontSize:(int)fontSize frame:(CGRect)frame cornerRadius:(CGFloat)cornerRadius;
 
 //多久之后开始执行
 - (void)startTime:(NSInteger)timeout waitBlock:(void(^)(NSInteger remainTime))waitBlock finishBlock:(void(^)(void))finishBlock;
 
 //点击按钮之后的动作
-- (void)wh_addActionHandler:(TouchedButtonBlock)touchHandler;
+- (void)hl_addActionHandler:(TouchedButtonBlock)touchHandler;
 
 
 /** 显示菊花 */
-- (void)wh_showIndicator;
+- (void)hl_showIndicator;
 
 /** 隐藏菊花 */
-- (void)wh_hideIndicator;
+- (void)hl_hideIndicator;
 
 
 /** 改变按钮的响应区域,上左下右分别增加或减小多少  正数为增加 负数为减小*/

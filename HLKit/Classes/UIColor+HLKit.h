@@ -12,17 +12,17 @@
 /**
  * 使用16进制数字创建颜色
  */
-+ (instancetype)wh_colorWithHex:(uint32_t)hex;
++ (instancetype)hl_colorWithHex:(uint32_t)hex;
 
 /**
  * 随机颜色
  */
-+ (instancetype)wh_randomColor;
++ (instancetype)hl_randomColor;
 
 /**
  * RGB颜色
  */
-+ (instancetype)wh_colorWithRed:(uint8_t)red green:(uint8_t)green blue:(uint8_t)blue;
++ (instancetype)hl_colorWithRed:(uint8_t)red green:(uint8_t)green blue:(uint8_t)blue;
 
 /**
  十六进制字符串显示颜色
@@ -31,7 +31,7 @@
  @param alpha 透明度
  @return 颜色
  */
-+ (UIColor *)wh_colorWithHexString:(NSString *)color alpha:(CGFloat)alpha;
++ (UIColor *)hl_colorWithHexString:(NSString *)color alpha:(CGFloat)alpha;
 
 
 /**
@@ -43,7 +43,7 @@
  *
  *  @return 渐变颜色
  */
-+ (UIColor*)wh_gradientFromColor:(UIColor*)fromColor toColor:(UIColor*)toColor withHeight:(CGFloat)height;
++ (UIColor*)hl_gradientFromColor:(UIColor*)fromColor toColor:(UIColor*)toColor withHeight:(CGFloat)height;
 
 #pragma mark - 
 + (UIColor *) colorWithHex:(NSInteger)rgbHexValue;

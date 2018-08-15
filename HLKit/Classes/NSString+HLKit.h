@@ -41,7 +41,7 @@
  @param strLeft 左边匹配字符串
  @param strRight 右边匹配的字符串
  */
-- (NSString*)wh_substringWithinBoundsLeft:(NSString*)strLeft right:(NSString*)strRight;
+- (NSString*)hl_substringWithinBoundsLeft:(NSString*)strLeft right:(NSString*)strRight;
 
 /**
  阿拉伯数字转成中文
@@ -49,7 +49,7 @@
  @param arebic 阿拉伯数字
  @return 返回的中文数字
  */
-+(NSString *)wh_translation:(NSString *)arebic;
++(NSString *)hl_translation:(NSString *)arebic;
 
 /**
  字符串反转
@@ -57,7 +57,7 @@
  @param str 要反转的字符串
  @return 反转之后的字符串
  */
-- (NSString*)wh_reverseWordsInString:(NSString*)str;
+- (NSString*)hl_reverseWordsInString:(NSString*)str;
 
 /**
  获得汉字的拼音
@@ -65,7 +65,7 @@
  @param chinese 汉字
  @return 拼音
  */
-+ (NSString *)wh_transform:(NSString *)chinese;
++ (NSString *)hl_transform:(NSString *)chinese;
 
 /** 判断URL中是否包含中文 */
 - (BOOL)isContainChinese;

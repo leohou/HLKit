@@ -50,6 +50,7 @@
 		9328560E2123F50800431699 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9328560D2123F50800431699 /* Foundation.framework */; };
 		932856102123F50F00431699 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9328560F2123F50F00431699 /* libz.tbd */; };
 		932856122123F51800431699 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932856112123F51800431699 /* UIKit.framework */; };
+		932856142124203F00431699 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 932856132124203F00431699 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -155,6 +156,7 @@
 		9328560D2123F50800431699 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9328560F2123F50F00431699 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		932856112123F51800431699 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		932856132124203F00431699 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		95EAD9E331CDBCE659C3A8F0 /* Pods-HLKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLKit/Pods-HLKit.release.xcconfig"; sourceTree = "<group>"; };
 		C2023CFE3595000F6C5D64E5 /* Pods-HLKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLKit/Pods-HLKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -201,6 +203,7 @@
 		932855662123F01900431699 = {
 			isa = PBXGroup;
 			children = (
+				932856132124203F00431699 /* README.md */,
 				932855A42123F35300431699 /* HLKit.podspec */,
 				932855712123F01900431699 /* HLKit */,
 				932855702123F01900431699 /* Products */,
@@ -431,6 +434,7 @@
 			files = (
 				9328557F2123F01900431699 /* LaunchScreen.storyboard in Resources */,
 				932855A52123F35300431699 /* HLKit.podspec in Resources */,
+				932856142124203F00431699 /* README.md in Resources */,
 				9328557C2123F01900431699 /* Assets.xcassets in Resources */,
 				9328557A2123F01900431699 /* Main.storyboard in Resources */,
 			);

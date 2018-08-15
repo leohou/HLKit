@@ -187,7 +187,7 @@
 }
 
 
-- (NSString*)wh_substringWithinBoundsLeft:(NSString*)strLeft right:(NSString*)strRight
+- (NSString*)hl_substringWithinBoundsLeft:(NSString*)strLeft right:(NSString*)strRight
 {
     NSRange rangeSub;
     NSString *strSub;
@@ -222,7 +222,7 @@
  @param arebic 阿拉伯数字
  @return 返回的中文数字
  */
-+(NSString *)wh_translation:(NSString *)arebic
++(NSString *)hl_translation:(NSString *)arebic
 {
     NSString *str = arebic;
     NSArray *arabic_numerals = @[@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"0"];
@@ -266,7 +266,7 @@
     return chinese;
 }
 
-- (NSString*)wh_reverseWordsInString:(NSString*)str
+- (NSString*)hl_reverseWordsInString:(NSString*)str
 {
     NSMutableString *reverString = [NSMutableString stringWithCapacity:str.length];
     [str enumerateSubstringsInRange:NSMakeRange(0, str.length) options:NSStringEnumerationReverse | NSStringEnumerationByComposedCharacterSequences  usingBlock:^(NSString *substring, NSRange substringRange, NSRange enclosingRange, BOOL *stop) {
@@ -275,7 +275,7 @@
     return reverString;
 }
 
-+ (NSString *)wh_transform:(NSString *)chinese
++ (NSString *)hl_transform:(NSString *)chinese
 {
     //将NSString装换成NSMutableString
     NSMutableString *pinyin = [chinese mutableCopy];
