@@ -71,6 +71,8 @@
 }
 + (BOOL)hasCamera
 {
+    
+//    return YES;
     return [UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera];
 }
 
