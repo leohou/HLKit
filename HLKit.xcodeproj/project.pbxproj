@@ -7,14 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05D13A73ABFA8661E2EA5880 /* libPods-HLKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 851BFD733A0D661CFA40F4E7 /* libPods-HLKit.a */; };
 		932855742123F01900431699 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855732123F01900431699 /* AppDelegate.m */; };
 		932855772123F01900431699 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855762123F01900431699 /* ViewController.m */; };
 		9328557A2123F01900431699 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932855782123F01900431699 /* Main.storyboard */; };
 		9328557C2123F01900431699 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9328557B2123F01900431699 /* Assets.xcassets */; };
 		9328557F2123F01900431699 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9328557D2123F01900431699 /* LaunchScreen.storyboard */; };
 		932855822123F01900431699 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855812123F01900431699 /* main.m */; };
-		9328558C2123F01900431699 /* HLKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9328558B2123F01900431699 /* HLKitTests.m */; };
-		932855972123F01900431699 /* HLKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855962123F01900431699 /* HLKitUITests.m */; };
+		932855A52123F35300431699 /* HLKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 932855A42123F35300431699 /* HLKit.podspec */; };
+		932855EB2123F47200431699 /* CALayer+HLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855A82123F47200431699 /* CALayer+HLLayer.m */; };
+		932855EC2123F47200431699 /* Foundation+HLSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855AA2123F47200431699 /* Foundation+HLSafe.m */; };
+		932855EE2123F47200431699 /* HLGeneralTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855AE2123F47200431699 /* HLGeneralTools.m */; };
+		932855EF2123F47200431699 /* HLKeyChainHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855B02123F47200431699 /* HLKeyChainHelper.m */; };
+		932855F02123F47200431699 /* HLMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855B42123F47200431699 /* HLMethods.m */; };
+		932855F12123F47200431699 /* HLSignalHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855B72123F47200431699 /* HLSignalHandler.m */; };
+		932855F22123F47200431699 /* HLUncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855BA2123F47200431699 /* HLUncaughtExceptionHandler.m */; };
+		932855F32123F47200431699 /* NSArray+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855BC2123F47200431699 /* NSArray+HLKit.m */; };
+		932855F42123F47200431699 /* NSDate+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855BE2123F47200431699 /* NSDate+HLKit.m */; };
+		932855F52123F47200431699 /* NSDictionary+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855C02123F47200431699 /* NSDictionary+HLKit.m */; };
+		932855F62123F47200431699 /* NSFileManager+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855C22123F47200431699 /* NSFileManager+HLKit.m */; };
+		932855F72123F47200431699 /* NSMutableDictionary+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855C42123F47200431699 /* NSMutableDictionary+HLKit.m */; };
+		932855F82123F47200431699 /* NSNumber+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855C62123F47200431699 /* NSNumber+HLKit.m */; };
+		932855F92123F47200431699 /* NSObject+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855C82123F47200431699 /* NSObject+HLKit.m */; };
+		932855FA2123F47200431699 /* NSObject+HLRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855CA2123F47200431699 /* NSObject+HLRuntime.m */; };
+		932855FB2123F47200431699 /* NSString+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855CC2123F47200431699 /* NSString+HLKit.m */; };
+		932855FC2123F47200431699 /* NSTimer+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855CE2123F47200431699 /* NSTimer+HLKit.m */; };
+		932855FD2123F47200431699 /* UIAlertController+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855D02123F47200431699 /* UIAlertController+HLKit.m */; };
+		932855FE2123F47200431699 /* UIBarButtonItem+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855D22123F47200431699 /* UIBarButtonItem+HLKit.m */; };
+		932855FF2123F47200431699 /* UIButton+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855D42123F47200431699 /* UIButton+HLKit.m */; };
+		932856002123F47200431699 /* UIColor+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855D62123F47200431699 /* UIColor+HLKit.m */; };
+		932856012123F47200431699 /* UIDevice+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855D82123F47200431699 /* UIDevice+HLKit.m */; };
+		932856022123F47200431699 /* UIImage+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855DA2123F47200431699 /* UIImage+HLKit.m */; };
+		932856032123F47200431699 /* UILabel+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855DC2123F47200431699 /* UILabel+HLKit.m */; };
+		932856042123F47200431699 /* UINavigationController+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855DE2123F47200431699 /* UINavigationController+HLKit.m */; };
+		932856052123F47200431699 /* UIScrollView+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855E02123F47200431699 /* UIScrollView+HLKit.m */; };
+		932856062123F47200431699 /* UITableView+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855E22123F47200431699 /* UITableView+HLKit.m */; };
+		932856072123F47200431699 /* UIView+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855E42123F47200431699 /* UIView+HLKit.m */; };
+		932856082123F47200431699 /* UIViewController+HLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855E62123F47200431699 /* UIViewController+HLKit.m */; };
+		932856092123F47200431699 /* WSUMBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855E82123F47200431699 /* WSUMBProgressHUD.m */; };
+		9328560A2123F47200431699 /* WSUReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855EA2123F47200431699 /* WSUReachability.m */; };
+		9328560C2123F4C800431699 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9328560B2123F4C800431699 /* CoreGraphics.framework */; };
+		9328560E2123F50800431699 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9328560D2123F50800431699 /* Foundation.framework */; };
+		932856102123F50F00431699 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9328560F2123F50F00431699 /* libz.tbd */; };
+		932856122123F51800431699 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932856112123F51800431699 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +70,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		851BFD733A0D661CFA40F4E7 /* libPods-HLKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9328556F2123F01900431699 /* HLKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		932855722123F01900431699 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		932855732123F01900431699 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,11 +82,81 @@
 		932855802123F01900431699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		932855812123F01900431699 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		932855872123F01900431699 /* HLKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9328558B2123F01900431699 /* HLKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLKitTests.m; sourceTree = "<group>"; };
-		9328558D2123F01900431699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		932855922123F01900431699 /* HLKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		932855962123F01900431699 /* HLKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLKitUITests.m; sourceTree = "<group>"; };
-		932855982123F01900431699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		932855A42123F35300431699 /* HLKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HLKit.podspec; sourceTree = "<group>"; };
+		932855A72123F47200431699 /* CALayer+HLLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+HLLayer.h"; sourceTree = "<group>"; };
+		932855A82123F47200431699 /* CALayer+HLLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+HLLayer.m"; sourceTree = "<group>"; };
+		932855A92123F47200431699 /* Foundation+HLSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Foundation+HLSafe.h"; sourceTree = "<group>"; };
+		932855AA2123F47200431699 /* Foundation+HLSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+HLSafe.m"; sourceTree = "<group>"; };
+		932855AC2123F47200431699 /* HLCommonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLCommonMacros.h; sourceTree = "<group>"; };
+		932855AD2123F47200431699 /* HLGeneralTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLGeneralTools.h; sourceTree = "<group>"; };
+		932855AE2123F47200431699 /* HLGeneralTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLGeneralTools.m; sourceTree = "<group>"; };
+		932855AF2123F47200431699 /* HLKeyChainHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLKeyChainHelper.h; sourceTree = "<group>"; };
+		932855B02123F47200431699 /* HLKeyChainHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLKeyChainHelper.m; sourceTree = "<group>"; };
+		932855B12123F47200431699 /* HLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLKit.h; sourceTree = "<group>"; };
+		932855B22123F47200431699 /* HLMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLMacro.h; sourceTree = "<group>"; };
+		932855B32123F47200431699 /* HLMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLMethods.h; sourceTree = "<group>"; };
+		932855B42123F47200431699 /* HLMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLMethods.m; sourceTree = "<group>"; };
+		932855B52123F47200431699 /* HLSerializeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLSerializeKit.h; sourceTree = "<group>"; };
+		932855B62123F47200431699 /* HLSignalHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLSignalHandler.h; sourceTree = "<group>"; };
+		932855B72123F47200431699 /* HLSignalHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLSignalHandler.m; sourceTree = "<group>"; };
+		932855B82123F47200431699 /* HLSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLSingleton.h; sourceTree = "<group>"; };
+		932855B92123F47200431699 /* HLUncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLUncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		932855BA2123F47200431699 /* HLUncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLUncaughtExceptionHandler.m; sourceTree = "<group>"; };
+		932855BB2123F47200431699 /* NSArray+HLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HLKit.h"; sourceTree = "<group>"; };
+		932855BC2123F47200431699 /* NSArray+HLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HLKit.m"; sourceTree = "<group>"; };
+		932855BD2123F47200431699 /* NSDate+HLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+HLKit.h"; sourceTree = "<group>"; };
+		932855BE2123F47200431699 /* NSDate+HLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HLKit.m"; sourceTree = "<group>"; };
+		932855BF2123F47200431699 /* NSDictionary+HLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HLKit.h"; sourceTree = "<group>"; };
+		932855C02123F47200431699 /* NSDictionary+HLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HLKit.m"; sourceTree = "<group>"; };
+		932855C12123F47200431699 /* NSFileManager+HLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+HLKit.h"; sourceTree = "<group>"; };
+		932855C22123F47200431699 /* NSFileManager+HLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+HLKit.m"; sourceTree = "<group>"; };
+		932855C32123F47200431699 /* NSMutableDictionary+HLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+HLKit.h"; sourceTree = "<group>"; };
+		932855C42123F47200431699 /* NSMutableDictionary+HLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+HLKit.m"; sourceTree = "<group>"; };
+		932855C52123F47200431699 /* NSNumber+HLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+HLKit.h"; sourceTree = "<group>"; };
+		932855C62123F47200431699 /* NSNumber+HLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+HLKit.m"; sourceTree = "<group>"; };
+		932855C72123F47200431699 /* NSObject+HLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HLKit.h"; sourceTree = "<group>"; };
+		932855C82123F47200431699 /* NSObject+HLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HLKit.m"; sourceTree = "<group>"; };
+		932855C92123F47200431699 /* NSObject+HLRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HLRuntime.h"; sourceTree = "<group>"; };
+		932855CA2123F47200431699 /* NSObject+HLRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HLRuntime.m"; sourceTree = "<group>"; };
+		932855CB2123F47200431699 /* NSString+HLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HLKit.h"; sourceTree = "<group>"; };
+		932855CC2123F47200431699 /* NSString+HLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HLKit.m"; sourceTree = "<group>"; };
+		932855CD2123F47200431699 /* NSTimer+HLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+HLKit.h"; sourceTree = "<group>"; };
+		932855CE2123F47200431699 /* NSTimer+HLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+HLKit.m"; sourceTree = "<group>"; };
+		932855CF2123F47200431699 /* UIAlertController+HLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+HLKit.h"; sourceTree = "<group>"; };
+		932855D02123F47200431699 /* UIAlertController+HLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+HLKit.m"; sourceTree = "<group>"; };
+		932855D12123F47200431699 /* UIBarButtonItem+HLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+HLKit.h"; sourceTree = "<group>"; };
+		932855D22123F47200431699 /* UIBarButtonItem+HLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+HLKit.m"; sourceTree = "<group>"; };
+		932855D32123F47200431699 /* UIButton+HLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HLKit.h"; sourceTree = "<group>"; };
+		932855D42123F47200431699 /* UIButton+HLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HLKit.m"; sourceTree = "<group>"; };
+		932855D52123F47200431699 /* UIColor+HLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HLKit.h"; sourceTree = "<group>"; };
+		932855D62123F47200431699 /* UIColor+HLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HLKit.m"; sourceTree = "<group>"; };
+		932855D72123F47200431699 /* UIDevice+HLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+HLKit.h"; sourceTree = "<group>"; };
+		932855D82123F47200431699 /* UIDevice+HLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+HLKit.m"; sourceTree = "<group>"; };
+		932855D92123F47200431699 /* UIImage+HLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HLKit.h"; sourceTree = "<group>"; };
+		932855DA2123F47200431699 /* UIImage+HLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HLKit.m"; sourceTree = "<group>"; };
+		932855DB2123F47200431699 /* UILabel+HLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+HLKit.h"; sourceTree = "<group>"; };
+		932855DC2123F47200431699 /* UILabel+HLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HLKit.m"; sourceTree = "<group>"; };
+		932855DD2123F47200431699 /* UINavigationController+HLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+HLKit.h"; sourceTree = "<group>"; };
+		932855DE2123F47200431699 /* UINavigationController+HLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+HLKit.m"; sourceTree = "<group>"; };
+		932855DF2123F47200431699 /* UIScrollView+HLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+HLKit.h"; sourceTree = "<group>"; };
+		932855E02123F47200431699 /* UIScrollView+HLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+HLKit.m"; sourceTree = "<group>"; };
+		932855E12123F47200431699 /* UITableView+HLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+HLKit.h"; sourceTree = "<group>"; };
+		932855E22123F47200431699 /* UITableView+HLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HLKit.m"; sourceTree = "<group>"; };
+		932855E32123F47200431699 /* UIView+HLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HLKit.h"; sourceTree = "<group>"; };
+		932855E42123F47200431699 /* UIView+HLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HLKit.m"; sourceTree = "<group>"; };
+		932855E52123F47200431699 /* UIViewController+HLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HLKit.h"; sourceTree = "<group>"; };
+		932855E62123F47200431699 /* UIViewController+HLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HLKit.m"; sourceTree = "<group>"; };
+		932855E72123F47200431699 /* WSUMBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSUMBProgressHUD.h; sourceTree = "<group>"; };
+		932855E82123F47200431699 /* WSUMBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSUMBProgressHUD.m; sourceTree = "<group>"; };
+		932855E92123F47200431699 /* WSUReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSUReachability.h; sourceTree = "<group>"; };
+		932855EA2123F47200431699 /* WSUReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSUReachability.m; sourceTree = "<group>"; };
+		9328560B2123F4C800431699 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9328560D2123F50800431699 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9328560F2123F50F00431699 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		932856112123F51800431699 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		95EAD9E331CDBCE659C3A8F0 /* Pods-HLKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLKit/Pods-HLKit.release.xcconfig"; sourceTree = "<group>"; };
+		C2023CFE3595000F6C5D64E5 /* Pods-HLKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLKit/Pods-HLKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +164,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				932856122123F51800431699 /* UIKit.framework in Frameworks */,
+				932856102123F50F00431699 /* libz.tbd in Frameworks */,
+				9328560E2123F50800431699 /* Foundation.framework in Frameworks */,
+				9328560C2123F4C800431699 /* CoreGraphics.framework in Frameworks */,
+				05D13A73ABFA8661E2EA5880 /* libPods-HLKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +189,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F36997FEDF8ADF829C4AB46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2023CFE3595000F6C5D64E5 /* Pods-HLKit.debug.xcconfig */,
+				95EAD9E331CDBCE659C3A8F0 /* Pods-HLKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		932855662123F01900431699 = {
 			isa = PBXGroup;
 			children = (
+				932855A42123F35300431699 /* HLKit.podspec */,
 				932855712123F01900431699 /* HLKit */,
-				9328558A2123F01900431699 /* HLKitTests */,
-				932855952123F01900431699 /* HLKitUITests */,
 				932855702123F01900431699 /* Products */,
+				5F36997FEDF8ADF829C4AB46 /* Pods */,
+				B904906868DD95574849ED75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +222,7 @@
 		932855712123F01900431699 /* HLKit */ = {
 			isa = PBXGroup;
 			children = (
+				932855A62123F47200431699 /* Classes */,
 				932855722123F01900431699 /* AppDelegate.h */,
 				932855732123F01900431699 /* AppDelegate.m */,
 				932855752123F01900431699 /* ViewController.h */,
@@ -114,22 +236,90 @@
 			path = HLKit;
 			sourceTree = "<group>";
 		};
-		9328558A2123F01900431699 /* HLKitTests */ = {
+		932855A62123F47200431699 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9328558B2123F01900431699 /* HLKitTests.m */,
-				9328558D2123F01900431699 /* Info.plist */,
+				932855A72123F47200431699 /* CALayer+HLLayer.h */,
+				932855A82123F47200431699 /* CALayer+HLLayer.m */,
+				932855A92123F47200431699 /* Foundation+HLSafe.h */,
+				932855AA2123F47200431699 /* Foundation+HLSafe.m */,
+				932855AC2123F47200431699 /* HLCommonMacros.h */,
+				932855AD2123F47200431699 /* HLGeneralTools.h */,
+				932855AE2123F47200431699 /* HLGeneralTools.m */,
+				932855AF2123F47200431699 /* HLKeyChainHelper.h */,
+				932855B02123F47200431699 /* HLKeyChainHelper.m */,
+				932855B12123F47200431699 /* HLKit.h */,
+				932855B22123F47200431699 /* HLMacro.h */,
+				932855B32123F47200431699 /* HLMethods.h */,
+				932855B42123F47200431699 /* HLMethods.m */,
+				932855B52123F47200431699 /* HLSerializeKit.h */,
+				932855B62123F47200431699 /* HLSignalHandler.h */,
+				932855B72123F47200431699 /* HLSignalHandler.m */,
+				932855B82123F47200431699 /* HLSingleton.h */,
+				932855B92123F47200431699 /* HLUncaughtExceptionHandler.h */,
+				932855BA2123F47200431699 /* HLUncaughtExceptionHandler.m */,
+				932855BB2123F47200431699 /* NSArray+HLKit.h */,
+				932855BC2123F47200431699 /* NSArray+HLKit.m */,
+				932855BD2123F47200431699 /* NSDate+HLKit.h */,
+				932855BE2123F47200431699 /* NSDate+HLKit.m */,
+				932855BF2123F47200431699 /* NSDictionary+HLKit.h */,
+				932855C02123F47200431699 /* NSDictionary+HLKit.m */,
+				932855C12123F47200431699 /* NSFileManager+HLKit.h */,
+				932855C22123F47200431699 /* NSFileManager+HLKit.m */,
+				932855C32123F47200431699 /* NSMutableDictionary+HLKit.h */,
+				932855C42123F47200431699 /* NSMutableDictionary+HLKit.m */,
+				932855C52123F47200431699 /* NSNumber+HLKit.h */,
+				932855C62123F47200431699 /* NSNumber+HLKit.m */,
+				932855C72123F47200431699 /* NSObject+HLKit.h */,
+				932855C82123F47200431699 /* NSObject+HLKit.m */,
+				932855C92123F47200431699 /* NSObject+HLRuntime.h */,
+				932855CA2123F47200431699 /* NSObject+HLRuntime.m */,
+				932855CB2123F47200431699 /* NSString+HLKit.h */,
+				932855CC2123F47200431699 /* NSString+HLKit.m */,
+				932855CD2123F47200431699 /* NSTimer+HLKit.h */,
+				932855CE2123F47200431699 /* NSTimer+HLKit.m */,
+				932855CF2123F47200431699 /* UIAlertController+HLKit.h */,
+				932855D02123F47200431699 /* UIAlertController+HLKit.m */,
+				932855D12123F47200431699 /* UIBarButtonItem+HLKit.h */,
+				932855D22123F47200431699 /* UIBarButtonItem+HLKit.m */,
+				932855D32123F47200431699 /* UIButton+HLKit.h */,
+				932855D42123F47200431699 /* UIButton+HLKit.m */,
+				932855D52123F47200431699 /* UIColor+HLKit.h */,
+				932855D62123F47200431699 /* UIColor+HLKit.m */,
+				932855D72123F47200431699 /* UIDevice+HLKit.h */,
+				932855D82123F47200431699 /* UIDevice+HLKit.m */,
+				932855D92123F47200431699 /* UIImage+HLKit.h */,
+				932855DA2123F47200431699 /* UIImage+HLKit.m */,
+				932855DB2123F47200431699 /* UILabel+HLKit.h */,
+				932855DC2123F47200431699 /* UILabel+HLKit.m */,
+				932855DD2123F47200431699 /* UINavigationController+HLKit.h */,
+				932855DE2123F47200431699 /* UINavigationController+HLKit.m */,
+				932855DF2123F47200431699 /* UIScrollView+HLKit.h */,
+				932855E02123F47200431699 /* UIScrollView+HLKit.m */,
+				932855E12123F47200431699 /* UITableView+HLKit.h */,
+				932855E22123F47200431699 /* UITableView+HLKit.m */,
+				932855E32123F47200431699 /* UIView+HLKit.h */,
+				932855E42123F47200431699 /* UIView+HLKit.m */,
+				932855E52123F47200431699 /* UIViewController+HLKit.h */,
+				932855E62123F47200431699 /* UIViewController+HLKit.m */,
+				932855E72123F47200431699 /* WSUMBProgressHUD.h */,
+				932855E82123F47200431699 /* WSUMBProgressHUD.m */,
+				932855E92123F47200431699 /* WSUReachability.h */,
+				932855EA2123F47200431699 /* WSUReachability.m */,
 			);
-			path = HLKitTests;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		932855952123F01900431699 /* HLKitUITests */ = {
+		B904906868DD95574849ED75 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				932855962123F01900431699 /* HLKitUITests.m */,
-				932855982123F01900431699 /* Info.plist */,
+				932856112123F51800431699 /* UIKit.framework */,
+				9328560F2123F50F00431699 /* libz.tbd */,
+				9328560D2123F50800431699 /* Foundation.framework */,
+				9328560B2123F4C800431699 /* CoreGraphics.framework */,
+				851BFD733A0D661CFA40F4E7 /* libPods-HLKit.a */,
 			);
-			path = HLKitUITests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +329,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9328559B2123F01900431699 /* Build configuration list for PBXNativeTarget "HLKit" */;
 			buildPhases = (
+				C9AC08D661FD0D71E1836661 /* [CP] Check Pods Manifest.lock */,
 				9328556B2123F01900431699 /* Sources */,
 				9328556C2123F01900431699 /* Frameworks */,
 				9328556D2123F01900431699 /* Resources */,
@@ -199,7 +390,7 @@
 				TargetAttributes = {
 					9328556E2123F01900431699 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					932855862123F01900431699 = {
 						CreatedOnToolsVersion = 9.0;
@@ -239,6 +430,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9328557F2123F01900431699 /* LaunchScreen.storyboard in Resources */,
+				932855A52123F35300431699 /* HLKit.podspec in Resources */,
 				9328557C2123F01900431699 /* Assets.xcassets in Resources */,
 				9328557A2123F01900431699 /* Main.storyboard in Resources */,
 			);
@@ -260,14 +452,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C9AC08D661FD0D71E1836661 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HLKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9328556B2123F01900431699 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				932855772123F01900431699 /* ViewController.m in Sources */,
+				932856092123F47200431699 /* WSUMBProgressHUD.m in Sources */,
+				932855F32123F47200431699 /* NSArray+HLKit.m in Sources */,
+				932856052123F47200431699 /* UIScrollView+HLKit.m in Sources */,
+				932855FB2123F47200431699 /* NSString+HLKit.m in Sources */,
+				932855F22123F47200431699 /* HLUncaughtExceptionHandler.m in Sources */,
+				932855EB2123F47200431699 /* CALayer+HLLayer.m in Sources */,
 				932855822123F01900431699 /* main.m in Sources */,
+				932855EC2123F47200431699 /* Foundation+HLSafe.m in Sources */,
+				932855F12123F47200431699 /* HLSignalHandler.m in Sources */,
+				932856072123F47200431699 /* UIView+HLKit.m in Sources */,
+				932856042123F47200431699 /* UINavigationController+HLKit.m in Sources */,
+				932855F52123F47200431699 /* NSDictionary+HLKit.m in Sources */,
+				9328560A2123F47200431699 /* WSUReachability.m in Sources */,
+				932856002123F47200431699 /* UIColor+HLKit.m in Sources */,
+				932855F92123F47200431699 /* NSObject+HLKit.m in Sources */,
+				932856082123F47200431699 /* UIViewController+HLKit.m in Sources */,
+				932855EE2123F47200431699 /* HLGeneralTools.m in Sources */,
+				932855F62123F47200431699 /* NSFileManager+HLKit.m in Sources */,
+				932855FF2123F47200431699 /* UIButton+HLKit.m in Sources */,
+				932855FE2123F47200431699 /* UIBarButtonItem+HLKit.m in Sources */,
+				932855EF2123F47200431699 /* HLKeyChainHelper.m in Sources */,
+				932855FD2123F47200431699 /* UIAlertController+HLKit.m in Sources */,
+				932855F02123F47200431699 /* HLMethods.m in Sources */,
+				932856062123F47200431699 /* UITableView+HLKit.m in Sources */,
+				932856032123F47200431699 /* UILabel+HLKit.m in Sources */,
+				932856022123F47200431699 /* UIImage+HLKit.m in Sources */,
+				932855F42123F47200431699 /* NSDate+HLKit.m in Sources */,
+				932855F82123F47200431699 /* NSNumber+HLKit.m in Sources */,
+				932855F72123F47200431699 /* NSMutableDictionary+HLKit.m in Sources */,
 				932855742123F01900431699 /* AppDelegate.m in Sources */,
+				932855FC2123F47200431699 /* NSTimer+HLKit.m in Sources */,
+				932856012123F47200431699 /* UIDevice+HLKit.m in Sources */,
+				932855FA2123F47200431699 /* NSObject+HLRuntime.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +519,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9328558C2123F01900431699 /* HLKitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +526,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				932855972123F01900431699 /* HLKitUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,26 +670,35 @@
 		};
 		9328559C2123F01900431699 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2023CFE3595000F6C5D64E5 /* Pods-HLKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6LUZ4LMDZ4;
 				INFOPLIST_FILE = HLKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HLKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5fa80678-2b5b-4a4f-9169-75e61ebb47b6";
+				PROVISIONING_PROFILE_SPECIFIER = weisai_test;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		9328559D2123F01900431699 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95EAD9E331CDBCE659C3A8F0 /* Pods-HLKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HLKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HLKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
