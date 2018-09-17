@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'HLKit'
-s.version          = '0.1.2'
+s.version          = '1.0.0'
 s.summary          = 'A short description of HLKit.'
 
 s.description      = <<-DESC
