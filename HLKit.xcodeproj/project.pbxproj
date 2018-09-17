@@ -48,7 +48,6 @@
 		9328560A2123F47200431699 /* WSUReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 932855EA2123F47200431699 /* WSUReachability.m */; };
 		9328560C2123F4C800431699 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9328560B2123F4C800431699 /* CoreGraphics.framework */; };
 		9328560E2123F50800431699 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9328560D2123F50800431699 /* Foundation.framework */; };
-		932856102123F50F00431699 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9328560F2123F50F00431699 /* libz.tbd */; };
 		932856122123F51800431699 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932856112123F51800431699 /* UIKit.framework */; };
 		932856142124203F00431699 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 932856132124203F00431699 /* README.md */; };
 /* End PBXBuildFile section */
@@ -167,7 +166,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				932856122123F51800431699 /* UIKit.framework in Frameworks */,
-				932856102123F50F00431699 /* libz.tbd in Frameworks */,
 				9328560E2123F50800431699 /* Foundation.framework in Frameworks */,
 				9328560C2123F4C800431699 /* CoreGraphics.framework in Frameworks */,
 				05D13A73ABFA8661E2EA5880 /* libPods-HLKit.a in Frameworks */,

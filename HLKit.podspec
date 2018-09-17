@@ -18,7 +18,7 @@ s.source_files = 'HLKit/Classes/**/*'
  s.ios.deployment_target = '8.0'
 #// 设置只依赖一个系统的library
 # s.library = 'z'
-s.libraries = 'z'
+s.libraries = 'z','tbd','CommonCrypto'
 #s.xcconfig = {'HEADER_SEARCH_PATHS' =>'$(SDKROOT)/usr/'}
 #s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/usr/include/**' }
 # s.resource_bundles = {
