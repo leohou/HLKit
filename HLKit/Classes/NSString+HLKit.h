@@ -10,6 +10,7 @@
 #import <CoreGraphics/CoreGraphics.h>
 #import <UIKit/UIKit.h>
 #import <CommonCrypto/CommonDigest.h>
+#import "HLCommonMacros.h"
 #define MD5_LENGTH 16
 
 @interface NSString (HLKit)
