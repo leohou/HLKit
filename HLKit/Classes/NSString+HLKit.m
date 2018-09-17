@@ -7,7 +7,6 @@
 //
 
 #import "NSString+HLKit.h"
-#import "HLCommonMacros.h"
 #define CC_MD5_DIGEST_LENGTH    16          /* digest length in bytes */
 #define CC_MD5_BLOCK_BYTES      64          /* block size in bytes */
 
